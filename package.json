@@ -1,0 +1,20 @@
+{
+  "name": "jobempl",
+  "version": "6.9.5",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-session": "^1.15.1",
+    "jstimezonedetect": "^1.0.6",
+    "log4js": "^1.1.1",
+    "mongoose": "^4.9.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0"
+  }
+}

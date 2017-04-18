@@ -1,0 +1,7 @@
+[2017-04-04 15:15:47.613] [DEBUG] jobEmpl - log test!!!!
+[2017-04-04 15:15:53.591] [INFO] jobEmpl - ::1 - - "GET /userjob HTTP/1.1" 200 1451 "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+[2017-04-18 12:02:51.362] [DEBUG] jobEmpl - log test!!!!
+[2017-04-18 12:05:24.915] [INFO] jobEmpl - ::1 - - "GET /userjob HTTP/1.1" 200 1451 "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+[2017-04-18 12:05:39.055] [INFO] jobEmpl - ::1 - - "GET /userjob HTTP/1.1" 200 1451 "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+[2017-04-18 12:05:39.230] [ERROR] jobEmpl - ::1 - - "GET /favicon.ico HTTP/1.1" 404 24 "http://localhost:8080/userjob" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+[2017-04-18 12:06:38.794] [INFO] jobEmpl - ::1 - - "GET / HTTP/1.1" 200 15 "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
