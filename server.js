@@ -373,7 +373,7 @@ app.get("/checkdata", isLoggedIn, function (req, res) {
      jobdata.find({}).exec(function(err, jobd) {
 	 if(err)return next(error);
      if (!jobd) return next(new Error('No jobs found.'))
-			
+			throw new Error();
 			 res.json(jobd);
 			
 		});
@@ -418,7 +418,7 @@ app.get("/checkdata", isLoggedIn, function (req, res) {
 
   app.use(errmiddleware);
   
- var server = app.listen(process.env.PORT || 3000, function () {
+ var server = app.listen(process.env.PORT || 8080, function () {
     var port = server.address().port;
     console.log("App now running on port", port);
 	});
